@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body {
+  font-family: Rubik;
+  color: white;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+  background: #66a04b;
+}
+#body {
+  overflow: auto;
+}
+*::selection {
+ color: #292929;
+}
+.hometext {
+  text-align: center;
+  margin-top: 7%;
+}
+::-webkit-scrollbar {
+  width: 15px;
+  color: #000000;
+	border-width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  background: #000000;
+  margin-right: 0;
+  border-bottom: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: #000000 0px 0px 10px 0px;
+  -khtml-box-shadow: #000000 0px 0px 10px 0px;
+  -moz-box-shadow: #000000 0px 0px 10px 0px;
+  box-shadow: #000000 0px 0px 10px 0px;
+}
+h4{
+	text-align: center;
+}
+.invite {
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  right: 4%;
+  top: -45%;
+  padding: 40px 0;
+}
+.invite:hover {
+  text-decoration: underline;
+}
+#particles-js {
+ height: 100vh;
+ width: 100%;
+ position: absolute;
+}
+.features {
+  text-align: center;
+  margin: auto;
+  width: 85%;
+}
+@keyframes hover {
+	from {
+		background: #101010;
+	}
+	to {
+		background: #4f829f;
+	}
+}
+@keyframes hoverback {
+	from {
+		background: #4f829f
+	}
+	to {
+		background: #101010;
+	}
+}
+.feature {
+  font-size: 20px;
+  text-align: center;
+	animation: hoverback 300ms linear both;
+  padding: 10px 5px;
+  width: 400px;
+  height: auto;
+  margin-left: 10px;
+  display: inline-block;
+  background: #101010;
+  margin-bottom: 15px;
+  border: 2px solid #bbbbbb;
+  border-radius: 18px;
+}
+.feature:hover {
+	animation: hover 300ms linear both;
+	cursor: pointer;
+}
+.ftitle {
+  margin-top: 125px;
+}
+.title {
+	font-size: 100px;
+  margin-top: -50px;
+  margin: auto;
+  margin-bottom: 50px;
+  z-index: 1;
+
+}
+.featuresdiv {
+  margin-top: 475px;
+  width: 100%;
+  height: 1px;
+}
+.stitle {
+  margin-top: 325px;
+}
+.statsdiv {
+  margin-top: 275px;
+  width: 100%;
+  height: 1px;
+}
+#secondword {
+  font-size: 30px;
+}
+.devs {
+  text-align: center;
+  margin: auto;
+  width: 85%;
+}
+.dev {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 5px;
+  width: 400px;
+	animation: hoverback 300ms linear both;
+  height: auto;
+  margin-left: 10px;
+  display: inline-block;
+  background: #101010;
+  margin-bottom: 15px;
+  border: 2px solid #bbbbbb;
+  border-radius: 18px;
+}
+.dev:hover {
+	animation: hover 300ms linear both;
+	cursor: pointer;
+}
+.stats {
+  text-align: center;
+  margin: auto;
+  width: 85%;
+}
+.stat {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 5px;
+  width: 400px;
+  height: auto;
+  margin-left: 10px;
+  display: inline-block;
+	animation: hoverback 300ms linear both;
+  background: #101010;
+  margin-bottom: 15px;
+  border: 2px solid #bbbbbb;
+  border-radius: 18px;
+}
+.stat:hover {
+	animation: hover 300ms linear both;
+	cursor: pointer;
+}
+.invite a {
+  background: #7289DA;
+  padding: 0 20px;
+  line-height: 35px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.footer {
+  height: auto;
+  margin-top: 500px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+a {
+  text-decoration: none;
+}
+.a:hover {
+  text-decoration: none;
+}
+#wow {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+.particles-js-canvas-el {
+  display: none;
+}
+}
