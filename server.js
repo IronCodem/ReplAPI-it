@@ -4,7 +4,6 @@ const fs = require(`fs`);
 
 
 
-app.use(express.static('public'));
 
 app.get('/', function(req, res){
   res.sendFile('index.html', {root: __dirname + "/public"})
